@@ -1,0 +1,7 @@
+require('user.utils.hop')
+require('user.utils.spectre')
+require('user.utils.textwrap')
+require('user.utils.spell')
+require('user.utils.fzf')
+require('user.utils.copilot')
+require('user.utils.jsdoc')

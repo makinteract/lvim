@@ -1,0 +1,7 @@
+require('user.plugins')
+require('user.utils')
+require('user.settings')
+require('user.lsp')
+require('user.treesitter')
+require('user.keybindings')
+-- require('user.initial_template')
