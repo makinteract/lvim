@@ -20,7 +20,7 @@ lvim.builtin.which_key.mappings["u"] = {
   name = "+Utils",
   x = {
     name = "+Split",
-    h = { "<cmd>:split<cr>", "Horizontal split" },
-    v = { "<cmd>:vsplit<cr>", "Vertical split" },
+    h = { "<cmd>split<cr>", "Horizontal split" },
+    v = { "<cmd>vsplit<cr>", "Vertical split" },
   }
 }
