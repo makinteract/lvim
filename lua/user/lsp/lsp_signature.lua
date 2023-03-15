@@ -12,3 +12,8 @@ require "lsp_signature".setup({
     border = "rounded"
   }
 })
+
+
+-- Which-key addition to category 'u' (User)
+lvim.builtin.which_key.mappings['up'] = { '<cmd>lua require("lsp_signature").toggle_float_win()<cr>',
+  'Toggle LSP signature' }
